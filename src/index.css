@@ -1,13 +1,44 @@
-body {
+/* Reset + base */
+* {
+  box-sizing: border-box;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html,
+body,
+#root {
+  height: 100%;
+}
+:root {
+  --bg-1: #cfe99a;
+  --bg-2: #78bf8b;
+  --bg-3: #69b188;
+  --dark: #0f3e37;
+  --mint: #6bd0a5;
+  --cream: #f1e3bb;
+  --text: #0f0f0f;
+  --muted: #6b6b6b;
+  --line: #1f1f1f;
+  --cta: #11c487;
+  --cta-hover: #0fa775;
+}
+/* Background gradient with subtle overlays to mimic the screenshot */
+.page {
+  height: 100vh;
+  width: 100%;
+  display: grid;
+  place-items: center;
+  background: radial-gradient(
+      1200px 520px at 70% -20%,
+      rgba(255, 255, 255, 0.18),
+      rgba(255, 255, 255, 0) 60%
+    ),
+    radial-gradient(
+      900px 420px at -20% 110%,
+      rgba(255, 255, 255, 0.15),
+      rgba(255, 255, 255, 0) 60%
+    ),
+    linear-gradient(135deg, var(--bg-1) 0%, var(--bg-2) 45%, var(--bg-3) 100%);
+  font-family: "Inter", system-ui, -apple-system, Segoe UI, Roboto, Arial,
+    sans-serif;
 }
