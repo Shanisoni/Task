@@ -225,6 +225,8 @@
   }
 }
 
+
+
 /* Mobile phones */
 @media (max-width: 600px) {
   .wrap {
@@ -274,6 +276,7 @@
   }
 }
 
+/* Extra small phones */
 /* Very small phones */
 @media (max-width: 420px) {
   .brand {
