@@ -13,6 +13,9 @@ export default function SignUp() {
           </div>
         </div>
 
+
+
+
         <h1 className="tagline">
           Say hello to global<br />
           food and beverage<br />
@@ -22,6 +25,9 @@ export default function SignUp() {
         </h1>
       </aside>
 
+
+
+
       {/* RIGHT PANEL */}
       <main className="right">
         <h2 className="title">
@@ -29,11 +35,16 @@ export default function SignUp() {
           with a few simple steps
         </h2>
 
+
+
+
         <form
           className="form"
           autoComplete="off"
           onSubmit={(e) => e.preventDefault()}
         >
+
+
           <label className="lbl">Email</label>
           <input
             className="txt"
@@ -41,6 +52,8 @@ export default function SignUp() {
             name="signup-email"
             autoComplete="off"
           />
+
+
 
           <label className="lbl">Full Name</label>
           <input
