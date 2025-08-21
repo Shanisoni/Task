@@ -25,6 +25,9 @@ export default function SignUp() {
         </h1>
       </aside>
 
+      
+ 
+
 
 
 
