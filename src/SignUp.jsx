@@ -25,8 +25,6 @@ export default function SignUp() {
         </h1>
       </aside>
 
-      
- 
 
 
 
@@ -89,7 +87,8 @@ export default function SignUp() {
           Already have an account?{" "} <span className="log">Log in</span>
           <a href="#" onClick={(e) => e.preventDefault()}>
             
-           
+            {/* Dummy link to avoid linter warning */}  
+            
           </a>
         </p>
       </main>
