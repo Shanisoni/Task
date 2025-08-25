@@ -77,6 +77,11 @@ export default function SignUp() {
           </button>
         </form>
 
+
+
+
+
+
         <p className="terms">
           By signing up, you agree to our{" "}
           <a href="#" onClick={(e) => e.preventDefault()}>
